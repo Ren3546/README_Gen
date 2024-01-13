@@ -3,6 +3,7 @@
   ## Description
     testing
   ## Table of Contents
+<<<<<<< HEAD
     * [Description](#description)
     * [Installation](#installation)
     * [Usage](#usage)
@@ -10,6 +11,9 @@
     * [Contributing](#contributing)
     * [Tests](#tests)
     * [Questions](#questions)
+=======
+     [Description](#description)
+>>>>>>> 0fe1e80c12d04c242b0ab7e5f24d258362762896
   ## Installation
     testing
   ## Usage
