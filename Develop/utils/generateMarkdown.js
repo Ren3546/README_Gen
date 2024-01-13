@@ -2,9 +2,14 @@
 function renderLicenseBadge(license) {
   if (!license) {
     return ('')
-  } else {
-    return `[![License: ${license}](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+  } else if (license === `MIT`) {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  } else if (license === `LGPL-3.0`) {
+   return `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)`
+  } else if (license === `GPL-3.0`) {
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   }
+
 }
 
 //returns license link 
