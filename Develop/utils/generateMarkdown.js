@@ -56,7 +56,7 @@ ${renderLicenseBadge(data.license)}
   ## Tests 
     ${data.tests}
 ## Questions 
-  "For any questions, please contact my github account at:"
+  For any questions, please contact my github account at:
     [${data.questions}](https://github.com/${data.questions}/)
 `;
 }
